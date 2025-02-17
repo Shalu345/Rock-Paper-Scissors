@@ -1,0 +1,88 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body{
+    background-color: antiquewhite;
+    font-family: cursive;
+}
+
+p{
+    background-color: aqua;
+    display: flex;
+    justify-content:space-evenly;
+    padding: 2rem;
+    font-size: 20px;
+    font-weight:700;
+ font-weight: 700;
+}
+
+h1{
+    font-size: 3rem;
+   color: rgb(134, 53, 53);
+   text-align: center;
+   margin-top: 100px;
+   /* width: 30%; */
+}
+.btns{
+    /* padding: 20px; */
+    background-color: rgb(148, 39, 39);
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    justify-content:center;
+    margin-bottom: 70px;
+    margin-top: 40px;
+
+}
+button{
+    padding: 10px;
+    /* margin: 0 auto; */
+    color: blue;
+    margin: 4px;
+    font-size: 5rem;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 4px 6px 10px;
+    transition: all 0.3s ease-in-out ;
+}
+button:hover{
+    opacity:0.7;
+    color: aquamarine;
+    /* background-color: blanchedalmond; */
+}
+#result{
+    background-color: aqua;
+    padding: 20px;
+    font-size: 2rem;
+    text-align:center;
+    width: 800px;
+    margin: 0 auto;
+}
+#User-score{
+    color: yellow;
+    font-size: 30px;
+}
+#Comp-score
+{
+    color: red;
+    font-size: 30px;
+}
+#rock{
+ background-color: red;
+}
+#scissors{
+    background-color: #4caf50;
+}
+/* scissors:hover{
+    opacity: 2.3;
+    background-color: blanchedalmond;
+} */
+#paper{
+    background-color: #2196f3;
+}
+
